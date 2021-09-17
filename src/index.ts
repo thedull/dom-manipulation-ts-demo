@@ -39,8 +39,10 @@ function onSearch(): void {
 
 function renderGeoData(geoData: string[]): void {
     const list = document.createElement('ul');
+    list.classList.add("list-group");
     geoData.forEach(entry => {
         const item = document.createElement('li');
+        item.classList.add("list-group-item", "list-group-item-action")
         item.textContent = entry;
         list.appendChild(item);    
     });
