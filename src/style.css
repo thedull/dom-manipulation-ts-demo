@@ -1,0 +1,14 @@
+#data ul {
+    list-style: none;
+    list-style-position: initial;
+    padding: 0;
+}
+
+#data ul>li {
+    margin: 5px;
+    cursor: default;
+}
+
+#data ul>li:hover {
+    background-color: darkgrey;
+} 
